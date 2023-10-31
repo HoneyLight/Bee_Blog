@@ -1,0 +1,103 @@
+.navigation{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    /* box-shadow: 2px 2px 2px rgba(195, 195, 194, 5); */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 236, 239);
+    border-bottom: 1px solid gainsboro;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    /* width: 30%; */
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 40px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+.post{
+    background-color: rgb(16, 196, 26);
+    color: white;
+    padding: 8px 13px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.post:hover{
+    color: rgb(60, 58, 58);
+}
+.explore{
+    color: rgb(16, 196, 26);
+    padding: 8px 13px;
+    border: 1px solid rgb(16, 196, 26);
+    border-radius: 5px;
+    font-size: 15px;
+}
+.explore:hover{
+    background-color: rgb(16, 196, 26);
+    color: rgb(60, 58, 58);
+}
+.listI{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listI:hover{
+    background-color: black;
+}
+.listII{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon1:hover{
+    /* color: white; */
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    color: white;
+}
+
+/* .icon1{
+    font-size: 19px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 18px;
+} */
+/* .cart-icon{
+    font-size: 23px;
+} */
+/* .cart_count{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    right: 12px;
+    top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
